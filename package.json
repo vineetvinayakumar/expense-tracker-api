@@ -7,7 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "nodemon src/index.js",
     "dev": "env-cmd ./config/dev.env nodemon src/index.js",
     "test": "env-cmd ./config/test.env jest --watch"
   },
@@ -22,6 +22,7 @@
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
+    "json-parser": "^3.1.2",
     "jsonwebtoken": "^8.4.0",
     "mongodb": "^3.3.3",
     "mongoose": "^5.8.3",
@@ -33,6 +34,6 @@
   "devDependencies": {
     "env-cmd": "^8.0.2",
     "jest": "^24.9.0",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.19.4"
   }
 }
